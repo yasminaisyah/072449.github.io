@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Yasmin Aisyah | Dashboard Project</title>
+  <script src="https://cdn.tailwindcss.com"></script>
+  <link rel="icon" href="favicon.ico" type="image/x-icon">
+</head>
+<body class="bg-white text-gray-800 font-sans leading-relaxed tracking-wide flex flex-col min-h-screen">
+
+  <!-- Header -->
+  <header class="bg-blue-600 text-white py-6 shadow-md">
+    <div class="max-w-5xl mx-auto px-4">
+      <h1 class="text-3xl md:text-4xl font-bold">👋 Hi, I'm Yasmin Aisyah</h1>
+      <p class="text-sm md:text-base">Welcome to my Web Dashboard Project using Public APIs</p>
+    </div>
+  </header>
+
+  <!-- Main Content -->
+  <main class="flex-grow max-w-5xl mx-auto px-4 py-10">
+    
+    <!-- About Me -->
+    <section class="bg-white rounded-xl shadow-md p-6 mb-8 border border-gray-200">
+      <h2 class="text-xl font-semibold text-blue-700 mb-2">📄 About Me</h2>
+      <p class="text-gray-700">
+        I'm a student passionate about web development, data visualization, and real-time applications.
+        This project demonstrates how to fetch and display live data using APIs with interactive dashboards.
+      </p>
+    </section>
+
+    <!-- Dashboard Cards -->
+    <div class="grid grid-cols-1 md:grid-cols-2 gap-6">
+
+      <!-- Weather Dashboard -->
+      <div class="bg-white rounded-xl shadow-md p-6 hover:shadow-lg transition-all duration-300 border border-gray-200">
+        <h3 class="text-lg font-bold text-blue-600 mb-2">🌦 Weather Dashboard</h3>
+        <p class="text-gray-700 mb-4">Check real-time weather updates using the OpenWeather API.</p>
+        <a href="dashboard1.html" class="inline-block bg-blue-600 text-white px-4 py-2 rounded hover:bg-blue-700 transition">View Weather</a>
+      </div>
+
+      <!-- News Dashboard -->
+      <div class="bg-white rounded-xl shadow-md p-6 hover:shadow-lg transition-all duration-300 border border-gray-200">
+        <h3 class="text-lg font-bold text-blue-600 mb-2">📰 News Dashboard</h3>
+        <p class="text-gray-700 mb-4">Search for the latest news on any topic using NewsAPI.</p>
+        <a href="dashboard2.html" class="inline-block bg-blue-600 text-white px-4 py-2 rounded hover:bg-blue-700 transition">View News</a>
+      </div>
+
+    </div>
+  </main>
+
+  <!-- Footer -->
+  <footer class="bg-gray-100 text-center text-gray-600 py-4 text-sm">
+    &copy; 2025 Yasmin Aisyah | Built with HTML, Tailwind CSS, Chart.js & JavaScript
+  </footer>
+
+</body>
+</html>
